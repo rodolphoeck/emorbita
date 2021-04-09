@@ -1,0 +1,12 @@
+image: alpine/latest
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  site: em-orbita.com
+tasks:
+- package: |
+    cd rodolpho
+    tar -cvz . > ../site.tar.gz
+- upload: |
+    acurl -f https://pages.sr.ht/publish/$site \
+        -Fcontent=@site.tar.gz \
+        -Fprotocol=GEMINI
