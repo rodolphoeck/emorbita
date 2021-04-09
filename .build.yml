@@ -11,6 +11,7 @@ tasks:
     cd emorbita/rodolpho
     tar -cvz . > ../site.tar.gz
 - upload: |
+    cd ..
     acurl -f https://pages.sr.ht/publish/$site \
         -Fcontent=@site.tar.gz \
         -Fprotocol=GEMINI
