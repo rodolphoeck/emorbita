@@ -8,7 +8,7 @@ environment:
   site: em-orbita.com
 tasks:
 - package: |
-    cd rodolpho
+    cd emorbita/rodolpho
     tar -cvz . > ../site.tar.gz
 - upload: |
     acurl -f https://pages.sr.ht/publish/$site \
