@@ -1,0 +1,59 @@
+# Além do Software Livre e Aberto
+
+Com o anúncio do retorno do Richard Stallman (rms) à Free Software Foundation não foram poucos os artigos, vídeos e toots reagindo à notícia. Se já não fosse uma pessoa polêmica, envolvido em uma saída polêmica, a forma do anúncio ajudou a inflamar ainda mais o assunto.
+
+Eu gostaria muito que essa energia resultasse em mudanças no que eu considero ser pontos cegos da mobilização ao redor de software livre e aberto (open-source).
+
+## Definição
+
+Para quem não conhece, Software Livre é, de acordo com a definição estabelecida na década de 80, aquele que respeita as seguintes liberdades dos usuários:
+
+* A liberdade de executar o programa, para qualquer propósito;
+* A liberdade de estudar o programa, e adaptá-lo para as suas necessidades;
+* A liberdade de redistribuir cópias do programa de modo que você possa ajudar ao seu próximo;
+* A liberdade de modificar (aperfeiçoar) o programa e distribuir estas modificações, de modo que toda a comunidade se beneficie.
+
+Apesar de software de código aberto (open-source) possuir uma definição diferente, do ponto de vista técnico o resultado é o mesmo. Ou seja, a diferenciação entre os dois não é técnica, mas ideológica. O foco principal do software livre são usuários e suas liberdades.
+
+## Quais usuários?
+
+Eu acredito ser evidente como a concepção de usuário utilizada pela definição acima, vinda da década de 80, não se aplica à maioria esmagadora dos usuários de tecnologia de hoje. Como críticos do software livre argumentam, muitos dos usuários querem liberdade das complicações técnicas e do código-fonte.
+
+Com o crescimento do acesso, popularidade e necessidade de computadores no cotidiano das pessoas, o modo como esses sistemas são tratados passou a ser como caixas pretas, cujas funções são mais importantes que suas composições.
+
+A maioria dos usuários de geladeiras não se interessa pelos componentes ou o projeto de engenharia que resultou naquelas máquinas. O interesse é em manter itens refrigerados – talvez haja preocupações secundárias, por exemplo com consumo energético, mas o papel principal a ser cumprido pela geladeira é claro, refrigerar.
+
+Eu vejo a maioria dos usuários de computadores com a mesma postura diante seus dispositivos. Possuem um objetivo a ser atingido através de ferramentas digitais, mas a composição dessas ferramentas, a forma como foram produzidas, distribuídas ou licenciadas não é uma preocupação.
+
+Por focar em liberdades que não resolvem preocupações diretas, o software livre não atrai a maioria dos usuários e aumenta o trabalho daqueles que entendem seus benefícios e querem vê-lo proliferar.
+
+Até para mim, que entendo os benefícios de software livre sobre proprietários, a escolha nem sempre é fácil. Principalmente porque o contexto e aplicações de software mudaram tanto que uma escolha nem sempre é possível.
+
+Por exemplo, veja a resistência à plataformas e ferramentas online – os chamados serviços como substitutos a softwares (Service as a Software Substitute, SaaSS). O software-livre no computador do usuário interage com outro software em outro computador (um servidor) e esse pode não ser livre. Tornando o argumento e os benefícios de um software livre mais fracos.
+
+Mas eu não acredito que isso deveria ser motivo para resistir às mudanças – ao contrário, abraçar o novo contexto e atualizar a preocupação com usuários.
+
+## Usuários primeiro
+
+Utilizando um sistema computacional como uma caixa preta, um usuário possui novas preocupações que não são tratadas necessariamente pelas liberdades garantidas pelo software-livre.
+
+Eu gostaria de continuar a ver o foco nos usuários: usuários primeiro!
+Um “User First Software” que respeitasse os seguintes princípios:
+
+* Todo e qualquer dado produzido pelo, sobre ou a partir de um usuário, pertence a ele;
+* Todo e qualquer dado pertencente a um usuário deve ser acessível, modificável e removível por ele;
+* Todo e qualquer processo de processamento ou produção de dados que utilize, altere ou produza dados pertencentes a um usuário deve fazê-lo somente com autorização explícita e informada (acesso ao código-fonte) e todos os dados resultantes, finais ou intermediários também pertencem ao mesmo usuário.
+
+O objetivo não é substituir as liberdades providas por softwares livres, mas tratar de problemas ortogonais a essas. Por exemplo, os temas de privacidade, transparência e acesso a informação que se tornam cada vez mais preocupantes.
+
+Links:
+=> https://stallman.org/ Richard Stallman
+=> https://fsf.org/ FSF
+=> https://www.gnu.org/philosophy/free-sw.html Definição de Software Livre
+=> https://opensource.org/osd Definição de Software Aberto
+=> https://fsfe.org/freesoftware/comparison.en.html Comparação de Software Livre e Aberto
+=> https://r0ml.medium.com/free-software-an-idea-whose-time-has-passed-6570c1d8218a Crítica ao Software Livre
+=> https://directory.fsf.org/wiki/Collection:SaaSS Service as a Software Replacement
+
+
+Escrito em 2021.03.30.
