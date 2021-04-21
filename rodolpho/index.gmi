@@ -1,3 +1,11 @@
 # Em Orbita
 
-Configurando o meu gemlog no sourcehut.
+A casa para cápsulas Gemini em português.
+
+## Atualizações
+
+=>  gemini://rodolpho.onoeck.de/index.gmi 2021-04-21 - Rodolpho
+
+Lista produzida com uma versão alterada do spacewalk:
+
+=> https://tildegit.org/sloum/spacewalk spacewalk
