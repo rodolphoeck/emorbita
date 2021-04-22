@@ -12,6 +12,9 @@ tasks:
 - build: |
     cd emorbita
     go build foguete.go
+- launch: |
+    cd emorbita
+    ./foguete
 - package: |
     cd emorbita/orbita
     tar -cvz . > ../site.tar.gz
