@@ -1,4 +1,7 @@
 
-Para adicionar a sua capsula veja as instruções aqui:
+### Como adicionar sua capsula à lista
+
+Você pode me enviar um email ou adicionar diretamente no repositório:
 
 => https://git.sr.ht/~rodolphoeck/emorbita Repositório
+=> mailto:contato@em-orbita.com
