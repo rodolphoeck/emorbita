@@ -1,3 +1,5 @@
-# Conteúdo do meu site Gemini.
+# Agregador para cápsulas Gemini
 
-Estou usando [envs.net](https://envs.net) para hospedar o [meu site](gemini://envs.net/~rodolphoeck).
+O [agregador](gemini://em-orbita.com) para cápsulas [Gemini](gemini://gemini.circumlunar.space/) em [língua portuguesa](https://pt.wikipedia.org/wiki/L%C3%ADngua_portuguesa).
+
+Inspirado no [spacewalk](https://tildegit.org/sloum/spacewalk).
