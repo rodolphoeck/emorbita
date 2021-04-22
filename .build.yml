@@ -8,10 +8,10 @@ environment:
   site: em-orbita.com
 tasks:
 - package: |
-    cd emorbita/rodolpho
+    cd emorbita/orbita
     tar -cvz . > ../site.tar.gz
 - upload: |
-    cd emorbita 
+    cd emorbita
     acurl -f https://pages.sr.ht/publish/$site \
         -Fcontent=@site.tar.gz \
         -Fprotocol=GEMINI
