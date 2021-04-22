@@ -11,7 +11,7 @@ environment:
 tasks:
 - build: |
     cd emorbita
-    go build foguete
+    go build foguete.go
 - package: |
     cd emorbita/orbita
     tar -cvz . > ../site.tar.gz
