@@ -1,11 +1,9 @@
 image: alpine/latest
 oauth: pages.sr.ht/PAGES:RW
-secrets:
-- 1b9b349e-1553-46e7-a187-f137d532fba4
 packages:
 - go
 sources:
-- git@git.sr.ht:~rodolphoeck/emorbita
+- https://git.sr.ht/~rodolphoeck/emorbita
 environment:
   site: em-orbita.com
 tasks:
