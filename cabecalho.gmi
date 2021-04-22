@@ -1,6 +1,6 @@
 # Em Orbita
 
-A casa para cápsulas Gemini em português.
+A casa das cápsulas Gemini em português.
 
 ## Atualizações
 
