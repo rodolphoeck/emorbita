@@ -152,7 +152,7 @@ func ler(u string) (string, error){
 		// Redirecionamento.
 		return ler(p[1])
 	}
-	return "", fmt.Errorf("Erro do servidor: %v", r)
+	return "", fmt.Errorf("Erro do servidor: %s", r)
 }
 
 func escrever(h [][]string) {
