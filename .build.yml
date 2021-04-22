@@ -1,21 +1,21 @@
 image: alpine/latest
 oauth: pages.sr.ht/PAGES:RW
 secrets:
-  - 1b9b349e-1553-46e7-a187-f137d532fba4
+- 1b9b349e-1553-46e7-a187-f137d532fba4
 packages:
-  - go
+- go
 sources:
-  - git@git.sr.ht:~rodolphoeck/emorbita
+- git@git.sr.ht:~rodolphoeck/emorbita
 environment:
   site: em-orbita.com
 tasks:
-  - build: |
-    cd emorbiga
+- build: |
+    cd emorbita
     go build foguete
-  - package: |
+- package: |
     cd emorbita/orbita
     tar -cvz . > ../site.tar.gz
-  - upload: |
+- upload: |
     cd emorbita
     acurl -f https://pages.sr.ht/publish/$site \
         -Fcontent=@site.tar.gz \
