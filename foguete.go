@@ -43,7 +43,7 @@ func lerCapsulas() map[string]string {
 }
 
 func lerHistoricos() [][]string {
-	h, err := ler("gemini://em-orbita.com/historico.csv")
+	h, err := ler("gemini://em-orbita.com.br/historico.csv")
 	if err != nil {
 		log.Fatalf("Erro lendo histórico: %v", err)
 	}
