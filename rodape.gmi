@@ -3,5 +3,5 @@
 
 Você pode me enviar um email ou adicionar diretamente no repositório:
 
-=> https://git.sr.ht/~rodolphoeck/emorbita Repositório
+=> https://github.com/rodolphoeck/emorbita Repositório
 => mailto:contato@em-orbita.com.br
