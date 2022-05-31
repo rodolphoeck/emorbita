@@ -1,5 +1,8 @@
 name: deploy-srcht
-on: [push]
+on:
+  push:
+  schedule:
+    - cron: '0 12 * * *'
 jobs:
   deployment:
     runs-on: ubuntu-latest
