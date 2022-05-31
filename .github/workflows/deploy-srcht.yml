@@ -26,3 +26,4 @@ jobs:
           SRCHT_TOKEN: ${{ secrets.SRCHT_TOKEN }}
         run: |
           cd $GITHUB_WORKSPACE
+          curl --oauth2-bearer "$SRCHT_TOKEN" https://pages.sr.ht/publish/em-orbita.com.br -Fcontent=@site.tar.gz -Fprotocol=GEMINI
