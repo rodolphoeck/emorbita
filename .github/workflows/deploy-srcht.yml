@@ -1,0 +1,28 @@
+name: deploy-srcht
+on: [push]
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: '1.18.2'
+      - name: build
+        run: |
+          cd $GITHUB_WORKSPACE
+          go build foguete.go
+      - name: launch
+        run: |
+          cd $GITHUB_WORKSPACE
+          ./foguete
+      - name: install-curl
+        run: sudo apt install curl
+      - name: package
+        run: 
+          tar -cvzf $GITHUB_WORKSPACE/site.tar.gz -C $GITHUB_WORKSPACE/orbita .
+      - name: upload
+        env:
+          SRCHT_TOKEN: ${{ secrets.SRCHT_TOKEN }}
+        run: |
+          cd $GITHUB_WORKSPACE
